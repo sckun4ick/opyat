@@ -124,4 +124,160 @@ header center .center nav button:hover {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+.main .cneter .up {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .cneter .up .left {
+  width: 68%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: var(--center_bg);
+  border-radius: 20px;
+}
+.main .cneter .up .left .center {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.main .cneter .up .left .center .verh {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.main .cneter .up .left .center .verh h1 {
+  width: 40%;
+  font-family: "Roboto Flex";
+  font-weight: bold;
+  font-size: 78px;
+  color: var(--orange);
+  text-transform: uppercase;
+}
+.main .cneter .up .left .center p {
+  font-family: "Roboto Mono";
+  font-size: 16px;
+  color: var(--gray_text);
+  text-transform: uppercase;
+}
+.main .cneter .up .left .center .hiz {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: var(--black_bg);
+  border-radius: 12px;
+}
+.main .cneter .up .left .center .hiz ul {
+  width: 150%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+.main .cneter .up .left .center .hiz ul li {
+  font-family: "Roboto Mono";
+  font-size: 12px;
+  color: var(--gray_text);
+  text-transform: uppercase;
+  color: #81807E;
+  list-style: round;
+}
+.main .cneter .up .left .center .hiz ul li::marker {
+  color: var(--orange);
+}
+.main .cneter .up .right {
+  width: 29%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: var(--center_bg);
+  border-radius: 20px;
+}
+.main .cneter .up .right .center {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.main .cneter .down {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--center_bg);
+  border-radius: 20px;
+}
+.main .cneter .down .center {
+  width: 97%;
+  height: 88%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .cneter .down .center div {
+  width: 16%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--center_bg);
+  border-radius: 14px;
+}
+.main .cneter .down .center div p {
+  font-family: "Roboto Mono";
+  font-size: 16px;
+  color: var(--gray_text);
+  text-transform: uppercase;
+}
+.main .cneter .down .center div h2 {
+  font-family: "Roboto Flex";
+  font-weight: bold;
+  font-size: 60px;
+  color: var(--orange);
+  text-transform: uppercase;
+}
+.main .cneter .down .center button {
+  width: 16%;
+  height: 100%;
+  border-style: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: var(--center_bg);
+  border-radius: 14px;
+  gap: 10px;
+  transition: 0.5s all ease;
+}
+.main .cneter .down .center button p {
+  font-family: "Roboto Mono";
+  font-size: 16px;
+  color: var(--gray_text);
+  text-transform: uppercase;
+}
+.main .cneter .down .center button:hover {
+  background: #302e2e;
 }/*# sourceMappingURL=style.css.map */
