@@ -114,66 +114,60 @@ header center .center nav button:hover {
 
 .main {
   width: 100%;
-  height: 100vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--black_bg);
 }
-.main .cneter {
+.main .huina_huini {
   width: 95%;
   height: 90%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  background-color: var(--center_bg);
+  border-radius: 24px;
 }
-.main .cneter .up {
-  width: 100%;
-  height: 70%;
+.main .cneter {
+  width: 90%;
+  height: 95%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: stretch;
+  gap: 2%;
 }
-.main .cneter .up .left {
+.main .cneter .left {
   width: 55%;
   height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background: var(--center_bg);
-  border-radius: 20px;
-}
-.main .cneter .up .left .center {
-  width: 90%;
-  height: 80%;
-  display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
 }
-.main .cneter .up .left .center .verh {
+.main .cneter .left .verh {
   width: 100%;
-  height: 30%;
+  height: 40%;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 30px;
 }
-.main .cneter .up .left .center .verh h1 {
-  width: 50%;
+.main .cneter .left .verh h1 {
   font-family: "Roboto Flex";
-  font-size: 96px;
+  font-size: 68px;
   color: var(--white-orange);
   text-align: left;
-  width: 60%;
+  text-transform: uppercase;
+  line-height: 1.1;
+  margin-bottom: 20px;
 }
-.main .cneter .up .left .center .verh button {
+.main .cneter .left .verh button {
   position: relative;
-  right: 20%;
-  bottom: 25%;
-  width: 40%;
+  right: 0%;
+  bottom: 12%;
+  width: 50%;
   height: 60%;
   display: flex;
   flex-direction: row;
@@ -182,180 +176,121 @@ header center .center nav button:hover {
   background-color: transparent;
   border-style: none;
   cursor: pointer;
+  gap: 30px;
 }
-.main .cneter .up .left .center .verh button p {
+.main .cneter .left .verh button img {
+  width: 20%;
+  height: auto;
+}
+.main .cneter .left .verh button p {
   font-family: "Roboto Mono";
   font-size: 16px;
   color: var(--orange);
   text-align: left;
 }
-.main .cneter .up .left .center p {
-  width: 100%;
-  height: 20%;
+.main .cneter .left p {
+  width: 90%;
   font-family: "Roboto Mono";
   text-align: left;
-  font-size: 16px;
+  font-size: 14px;
   color: var(--gray_text);
+  line-height: 1.6;
 }
-.main .cneter .up .left .center .hiz {
-  width: 100%;
-  height: 15%;
+.main .cneter .right {
+  width: 43%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
-  background: var(--black_bg);
-  border-radius: 15px;
-}
-.main .cneter .up .left .center .hiz ul {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  gap: 5%;
-}
-.main .cneter .up .left .center .hiz ul li {
-  font-family: "Roboto Mono";
-  font-size: 14px;
-  color: var(--gray_text);
-  text-align: left;
-  position: relative;
-}
-.main .cneter .up .right {
-  width: 45%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-.main .cneter .up .right .verh {
-  width: 100%;
-  height: 60%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-}
-.main .cneter .up .right .verh button {
-  width: 100%;
-  height: 100%;
-  border: none;
-  cursor: pointer;
-  background-image: url(../resource/image/Image.svg);
+  background-image: url(../resource/image/Card.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-.main .cneter .up .right .niz {
-  width: 100%;
-  height: 40%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-.main .cneter .up .right .niz .center {
-  width: 90%;
-  height: 80%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
-  background-color: var(--center_bg);
   border-radius: 15px;
 }
-.main .cneter .up .right .niz .center h3 {
-  font-family: "Roboto Flex";
-  font-size: 24px;
-  color: #ffffff;
-  text-align: left;
-}
-.main .cneter .up .right .niz .center p {
-  font-family: "Roboto Mono";
-  font-size: 14px;
-  color: var(--gray_text);
-  text-align: left;
-}
-.main .cneter .down {
-  width: 100%;
-  height: 25%;
+.main .cneter .right .center {
+  width: 95%;
+  height: 95%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  border: 1px solid var(--center_bg);
-  border-radius: 15px;
+  align-items: flex-end;
 }
-.main .cneter .down .center {
-  width: 97%;
-  height: 87%;
+.main .cneter .right .center .ui {
+  width: 90%;
+  height: 20%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-.main .cneter .down .center div {
-  width: 15%;
-  height: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: var(--center_bg);
   border-radius: 15px;
 }
-.main .cneter .down .center div p {
+.main .cneter .right .center .ui div {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2823529412);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+.main .cneter .right .center .ui div p {
   font-family: "Roboto Mono";
-  font-size: 12px;
-  color: var(--gray_text);
-  text-align: center;
-  text-transform: uppercase;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: left;
 }
-.main .cneter .down .center div h2 {
-  font-family: "Roboto Flex";
-  font-size: 48px;
-  color: var(--orange);
-  text-align: center;
-}
-.main .cneter .down .center button {
-  width: 15%;
-  height: 90%;
+.main .cneter .right .center .ui button {
+  width: 40%;
+  height: 60%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 15px;
-  background: var(--center_bg);
-  border-style: none;
-  border-radius: 15px;
+  gap: 10px;
+  background: rgba(206, 126, 99, 0);
+  border: none;
   cursor: pointer;
 }
-.main .cneter .down .center button p {
+.main .cneter .right .center .ui button img {
+  width: 16px;
+  height: 16px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.main .cneter .right .center .ui button p {
   font-family: "Roboto Mono";
-  font-size: 14px;
-  color: var(--gray_text);
+  font-size: 12px;
+  color: #ffffff;
   text-transform: uppercase;
   text-align: left;
 }
 
-.reason {
+.key {
   width: 100%;
-  height: 60vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--black_bg);
 }
-.reason .down_huina {
+.key .jopa {
   width: 95%;
-  height: 92%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.key .jopa .obvodka {
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid var(--center_bg);
   border-radius: 24px;
 }
-.reason .down_huina .cneter {
+.key .jopa .obvodka .center {
   width: 95%;
   height: 90%;
   display: flex;
@@ -363,33 +298,34 @@ header center .center nav button:hover {
   justify-content: space-between;
   align-items: center;
 }
-.reason .down_huina .cneter .up {
+.key .jopa .obvodka .center .verh {
   width: 100%;
-  height: 30%;
+  height: 25%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   background: var(--center_bg);
-  border-radius: 20px;
-  padding: 3%;
+  border-radius: 16px;
+  padding: 2%;
 }
-.reason .down_huina .cneter .up h1 {
+.key .jopa .obvodka .center .verh h1 {
   font-family: "Roboto Flex";
-  font-size: 48px;
-  color: #ffffff;
+  font-size: 36px;
+  color: var(--white-orange);
   text-align: left;
+  font-weight: 500;
   text-transform: uppercase;
-  font-weight: 600;
 }
-.reason .down_huina .cneter .down {
+.key .jopa .obvodka .center .niz {
   width: 100%;
-  height: 65%;
+  height: 70%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 2%;
 }
-.reason .down_huina .cneter .down article {
+.key .jopa .obvodka .center .niz article {
   width: 23%;
   height: 100%;
   display: flex;
@@ -399,229 +335,41 @@ header center .center nav button:hover {
   border: 1px solid var(--center_bg);
   border-radius: 15px;
 }
-.reason .down_huina .cneter .down article .center {
-  width: 80%;
-  height: 80%;
+.key .jopa .obvodka .center .niz article .center {
+  width: 85%;
+  height: 85%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
 }
-.reason .down_huina .cneter .down article .center h3 {
-  font-family: "Roboto Flex";
-  font-size: 20px;
-  color: #ffffff;
-  text-align: left;
-  height: 25%;
-  font-weight: 500;
-  text-transform: uppercase;
+.key .jopa .obvodka .center .niz article .center img {
+  width: 50px;
+  height: 50px;
 }
-.reason .down_huina .cneter .down article .center p {
-  font-family: "Roboto Mono";
-  font-size: 14px;
-  color: var(--gray_text);
-  text-align: left;
+.key .jopa .obvodka .center .niz article .center .down {
+  width: 100%;
   height: 60%;
-}
-.reason .down_huina .cneter .down article .center div {
-  width: 100%;
-  height: 15%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.reason .down_huina .cneter .down article .center div button {
-  width: 45%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  transition: 0.5s all ease;
-}
-.reason .down_huina .cneter .down article .center div button img {
-  width: 42px;
-  height: 42px;
-}
-.reason .down_huina .cneter .down article .center div button p {
-  font-family: "Roboto Mono";
-  font-size: 14px;
-  color: #ffffff;
-  text-align: left;
-}
-.reason .down_huina .cneter .down article .center div button:hover {
-  transform: scale(1.05);
-}
-
-.ourservice {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--black_bg);
-}
-.ourservice .govno_govna {
-  width: 95%;
-  height: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid var(--center_bg);
-  border-radius: 24px;
-}
-.ourservice .govno_govna .center {
-  width: 95%;
-  height: 90%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-.ourservice .govno_govna .center .up {
-  width: 100%;
-  height: 15%;
-  display: flex;
   justify-content: flex-start;
-  align-items: center;
-  background: var(--center_bg);
-  border-radius: 20px;
-  padding: 3%;
-}
-.ourservice .govno_govna .center .up h1 {
-  font-family: "Roboto Flex";
-  font-size: 36px;
-  color: var(--white-orange);
-  text-align: left;
-  text-transform: uppercase;
-}
-.ourservice .govno_govna .center .down {
-  width: 100%;
-  height: 80%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  gap: 2%;
-}
-.ourservice .govno_govna .center .down article {
-  width: 48%;
-  height: 45%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: var(--center_bg);
-  border: 1px solid var(--center_bg);
-  border-radius: 15px;
-}
-.ourservice .govno_govna .center .down article .center {
-  width: 80%;
-  height: 70%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   align-items: flex-start;
-}
-.ourservice .govno_govna .center .down article .center .verh {
-  width: 100%;
-  height: 25%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.ourservice .govno_govna .center .down article .center .verh .left {
-  width: 60%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 15px;
-}
-.ourservice .govno_govna .center .down article .center .verh .left img {
-  width: 55px;
-  height: 55px;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-.ourservice .govno_govna .center .down article .center .verh .left h6 {
-  font-family: "Roboto Flex";
-  font-size: 30px;
-  color: var(--white-orange);
-  text-align: left;
-  text-transform: uppercase;
-  font-weight: 100;
-}
-.ourservice .govno_govna .center .down article .center .verh .right {
-  width: 40%;
-  height: 60%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   gap: 10px;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  transition: 0.5s all ease;
 }
-.ourservice .govno_govna .center .down article .center .verh .right img {
-  width: 42px;
-  height: 42px;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-.ourservice .govno_govna .center .down article .center .verh .right p {
-  font-family: "Roboto Mono";
-  font-size: 20px;
-  color: var(--gray_text);
-  text-align: left;
-  text-transform: uppercase;
-}
-.ourservice .govno_govna .center .down article .center .verh .right:hover {
-  transform: scale(1.05);
-}
-.ourservice .govno_govna .center .down article .center .niz {
-  width: 100%;
-  height: 55%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.ourservice .govno_govna .center .down article .center .niz p {
-  font-family: "Roboto Mono";
-  font-size: 14px;
-  color: var(--gray_text);
-  text-align: left;
-  height: 50%;
-}
-.ourservice .govno_govna .center .down article .center .niz .stage_for {
-  width: 100%;
-  height: 45%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.ourservice .govno_govna .center .down article .center .niz .stage_for .empty_div {
-  width: 50%;
-  height: 100%;
-}
-.ourservice .govno_govna .center .down article .center .niz .stage_for h3 {
+.key .jopa .obvodka .center .niz article .center .down h6 {
   font-family: "Roboto Flex";
-  font-size: 30px;
+  font-size: 18px;
   color: var(--white-orange);
-  text-align: right;
+  text-align: left;
   text-transform: uppercase;
   font-weight: 500;
-  width: 50%;
+}
+.key .jopa .obvodka .center .niz article .center .down p {
+  font-family: "Roboto Mono";
+  font-size: 13px;
+  color: var(--gray_text);
+  text-align: left;
+  line-height: 1.5;
 }
 
 .outworks {
@@ -1514,7 +1262,7 @@ footer .main_center .digital .cneter .duding button img {
      object-fit: contain;
 }
 footer .main_center .digital .cneter .duding button:hover {
-  background: var();
+  background: var(--center_bg);
 }
 footer .main_center .lenta {
   width: 100%;

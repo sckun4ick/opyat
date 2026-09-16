@@ -114,223 +114,165 @@ header center .center nav button:hover {
 
 .main {
   width: 100%;
-  height: 100vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--black_bg);
 }
-.main .cneter {
+.main .huina_huini {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .huina_huini .cneter {
   width: 95%;
   height: 90%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-.main .cneter .up {
-  width: 100%;
-  height: 70%;
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
+  gap: 2%;
 }
-.main .cneter .up .left {
-  width: 55%;
+.main .huina_huini .cneter .left {
+  width: 60%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--center_bg);
+  background-color: var(--center_bg);
   border-radius: 20px;
 }
-.main .cneter .up .left .center {
+.main .huina_huini .cneter .left .center {
   width: 90%;
-  height: 80%;
+  height: 90%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
-.main .cneter .up .left .center .verh {
+.main .huina_huini .cneter .left .center .verh {
   width: 100%;
-  height: 30%;
+  height: 40%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
 }
-.main .cneter .up .left .center .verh h1 {
-  width: 50%;
+.main .huina_huini .cneter .left .center .verh h1 {
+  width: 80%;
   font-family: "Roboto Flex";
-  font-size: 96px;
+  font-size: 72px;
   color: var(--white-orange);
   text-align: left;
-  width: 60%;
+  text-transform: uppercase;
+  line-height: 1.1;
+  margin-bottom: 20px;
 }
-.main .cneter .up .left .center .verh button {
-  position: relative;
-  right: 20%;
-  bottom: 25%;
+.main .huina_huini .cneter .left .center .verh button {
   width: 40%;
   height: 60%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 10px;
   background-color: transparent;
   border-style: none;
   cursor: pointer;
-}
-.main .cneter .up .left .center .verh button p {
-  font-family: "Roboto Mono";
-  font-size: 16px;
-  color: var(--orange);
-  text-align: left;
-}
-.main .cneter .up .left .center p {
-  width: 100%;
-  height: 20%;
-  font-family: "Roboto Mono";
-  text-align: left;
-  font-size: 16px;
-  color: var(--gray_text);
-}
-.main .cneter .up .left .center .hiz {
-  width: 100%;
-  height: 15%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  background: var(--black_bg);
-  border-radius: 15px;
-}
-.main .cneter .up .left .center .hiz ul {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  gap: 5%;
-}
-.main .cneter .up .left .center .hiz ul li {
-  font-family: "Roboto Mono";
-  font-size: 14px;
-  color: var(--gray_text);
-  text-align: left;
   position: relative;
+  bottom: 30%;
 }
-.main .cneter .up .right {
-  width: 45%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-end;
+.main .huina_huini .cneter .left .center .verh button img {
+  width: 77px;
+  height: 77px;
 }
-.main .cneter .up .right .verh {
-  width: 100%;
-  height: 60%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-}
-.main .cneter .up .right .verh button {
-  width: 100%;
-  height: 100%;
-  border: none;
-  cursor: pointer;
-  background-image: url(../resource/image/Image.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.main .cneter .up .right .niz {
-  width: 100%;
-  height: 40%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-.main .cneter .up .right .niz .center {
-  width: 90%;
-  height: 80%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
-  background-color: var(--center_bg);
-  border-radius: 15px;
-}
-.main .cneter .up .right .niz .center h3 {
-  font-family: "Roboto Flex";
-  font-size: 24px;
-  color: #ffffff;
-  text-align: left;
-}
-.main .cneter .up .right .niz .center p {
+.main .huina_huini .cneter .left .center .verh button p {
   font-family: "Roboto Mono";
-  font-size: 14px;
-  color: var(--gray_text);
+  font-size: 24px;
+  color: var(--orange);
+  text-transform: uppercase;
   text-align: left;
 }
-.main .cneter .down {
-  width: 100%;
-  height: 25%;
+.main .huina_huini .cneter .right {
+  width: 38%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid var(--center_bg);
-  border-radius: 15px;
+  background-color: var(--center_bg);
+  border-radius: 20px;
 }
-.main .cneter .down .center {
-  width: 97%;
-  height: 87%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.main .cneter .down .center div {
-  width: 15%;
+.main .huina_huini .cneter .right .center {
+  width: 90%;
   height: 90%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .huina_huini .cneter .right .center .blocks {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3%;
+}
+.main .huina_huini .cneter .right .center .blocks article {
+  width: 48%;
+  height: 48%;
+  display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--center_bg);
+  background: #1F1F1F;
   border-radius: 15px;
 }
-.main .cneter .down .center div p {
+.main .huina_huini .cneter .right .center .blocks article .center_art {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.main .huina_huini .cneter .right .center .blocks article .center_art p {
   font-family: "Roboto Mono";
   font-size: 12px;
   color: var(--gray_text);
   text-align: center;
   text-transform: uppercase;
 }
-.main .cneter .down .center div h2 {
+.main .huina_huini .cneter .right .center .blocks article .center_art h3 {
   font-family: "Roboto Flex";
-  font-size: 48px;
+  font-size: 42px;
   color: var(--orange);
   text-align: center;
 }
-.main .cneter .down .center button {
-  width: 15%;
-  height: 90%;
+.main .huina_huini .cneter .right .center button {
+  width: 100%;
+  height: 15%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 15px;
-  background: var(--center_bg);
+  background-color: transparent;
   border-style: none;
   border-radius: 15px;
   cursor: pointer;
 }
-.main .cneter .down .center button p {
+.main .huina_huini .cneter .right .center button img {
+  width: 24px;
+  height: 24px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.main .huina_huini .cneter .right .center button p {
   font-family: "Roboto Mono";
   font-size: 14px;
   color: var(--gray_text);
@@ -338,15 +280,15 @@ header center .center nav button:hover {
   text-align: left;
 }
 
-.reason {
+.meet {
   width: 100%;
-  height: 60vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--black_bg);
 }
-.reason .down_huina {
+.meet .obvodka {
   width: 95%;
   height: 92%;
   display: flex;
@@ -355,7 +297,7 @@ header center .center nav button:hover {
   border: 1px solid var(--center_bg);
   border-radius: 24px;
 }
-.reason .down_huina .cneter {
+.meet .obvodka .cneter {
   width: 95%;
   height: 90%;
   display: flex;
@@ -363,310 +305,32 @@ header center .center nav button:hover {
   justify-content: space-between;
   align-items: center;
 }
-.reason .down_huina .cneter .up {
+.meet .obvodka .cneter .up {
   width: 100%;
-  height: 30%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  background: var(--center_bg);
-  border-radius: 20px;
-  padding: 3%;
-}
-.reason .down_huina .cneter .up h1 {
-  font-family: "Roboto Flex";
-  font-size: 48px;
-  color: #ffffff;
-  text-align: left;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-.reason .down_huina .cneter .down {
-  width: 100%;
-  height: 65%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.reason .down_huina .cneter .down article {
-  width: 23%;
-  height: 100%;
+  height: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--center_bg);
-  border: 1px solid var(--center_bg);
-  border-radius: 15px;
 }
-.reason .down_huina .cneter .down article .center {
-  width: 80%;
-  height: 80%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.reason .down_huina .cneter .down article .center h3 {
-  font-family: "Roboto Flex";
-  font-size: 20px;
-  color: #ffffff;
-  text-align: left;
-  height: 25%;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-.reason .down_huina .cneter .down article .center p {
-  font-family: "Roboto Mono";
-  font-size: 14px;
-  color: var(--gray_text);
-  text-align: left;
-  height: 60%;
-}
-.reason .down_huina .cneter .down article .center div {
+.meet .obvodka .cneter .up .center {
   width: 100%;
-  height: 15%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.reason .down_huina .cneter .down article .center div button {
-  width: 45%;
   height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  transition: 0.5s all ease;
-}
-.reason .down_huina .cneter .down article .center div button img {
-  width: 42px;
-  height: 42px;
-}
-.reason .down_huina .cneter .down article .center div button p {
-  font-family: "Roboto Mono";
-  font-size: 14px;
-  color: #ffffff;
-  text-align: left;
-}
-.reason .down_huina .cneter .down article .center div button:hover {
-  transform: scale(1.05);
-}
-
-.ourservice {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--black_bg);
-}
-.ourservice .govno_govna {
-  width: 95%;
-  height: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid var(--center_bg);
-  border-radius: 24px;
-}
-.ourservice .govno_govna .center {
-  width: 95%;
-  height: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-.ourservice .govno_govna .center .up {
-  width: 100%;
-  height: 15%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
   background: var(--center_bg);
-  border-radius: 20px;
+  border-radius: 16px;
   padding: 3%;
 }
-.ourservice .govno_govna .center .up h1 {
+.meet .obvodka .cneter .up .center h1 {
   font-family: "Roboto Flex";
   font-size: 36px;
   color: var(--white-orange);
   text-align: left;
   text-transform: uppercase;
 }
-.ourservice .govno_govna .center .down {
-  width: 100%;
-  height: 80%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  gap: 2%;
-}
-.ourservice .govno_govna .center .down article {
-  width: 48%;
-  height: 45%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: var(--center_bg);
-  border: 1px solid var(--center_bg);
-  border-radius: 15px;
-}
-.ourservice .govno_govna .center .down article .center {
-  width: 80%;
-  height: 70%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.ourservice .govno_govna .center .down article .center .verh {
-  width: 100%;
-  height: 25%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.ourservice .govno_govna .center .down article .center .verh .left {
-  width: 60%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 15px;
-}
-.ourservice .govno_govna .center .down article .center .verh .left img {
-  width: 55px;
-  height: 55px;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-.ourservice .govno_govna .center .down article .center .verh .left h6 {
-  font-family: "Roboto Flex";
-  font-size: 30px;
-  color: var(--white-orange);
-  text-align: left;
-  text-transform: uppercase;
-  font-weight: 100;
-}
-.ourservice .govno_govna .center .down article .center .verh .right {
-  width: 40%;
-  height: 60%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  transition: 0.5s all ease;
-}
-.ourservice .govno_govna .center .down article .center .verh .right img {
-  width: 42px;
-  height: 42px;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-.ourservice .govno_govna .center .down article .center .verh .right p {
-  font-family: "Roboto Mono";
-  font-size: 20px;
-  color: var(--gray_text);
-  text-align: left;
-  text-transform: uppercase;
-}
-.ourservice .govno_govna .center .down article .center .verh .right:hover {
-  transform: scale(1.05);
-}
-.ourservice .govno_govna .center .down article .center .niz {
-  width: 100%;
-  height: 55%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.ourservice .govno_govna .center .down article .center .niz p {
-  font-family: "Roboto Mono";
-  font-size: 14px;
-  color: var(--gray_text);
-  text-align: left;
-  height: 50%;
-}
-.ourservice .govno_govna .center .down article .center .niz .stage_for {
-  width: 100%;
-  height: 45%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.ourservice .govno_govna .center .down article .center .niz .stage_for .empty_div {
-  width: 50%;
-  height: 100%;
-}
-.ourservice .govno_govna .center .down article .center .niz .stage_for h3 {
-  font-family: "Roboto Flex";
-  font-size: 30px;
-  color: var(--white-orange);
-  text-align: right;
-  text-transform: uppercase;
-  font-weight: 500;
-  width: 50%;
-}
-
-.outworks {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--black_bg);
-}
-.outworks .cneter {
-  width: 95%;
-  height: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-.outworks .cneter .up {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-.outworks .cneter .up .center {
-  width: 100%;
-  height: 12%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  background: var(--center_bg);
-  border-radius: 20px;
-  padding: 3%;
-}
-.outworks .cneter .up .center h1 {
-  font-family: "Roboto Flex";
-  font-size: 36px;
-  color: var(--white-orange);
-  text-align: left;
-  text-transform: uppercase;
-}
-.outworks .cneter .up .center button {
+.meet .obvodka .cneter .up .center button {
   width: 15%;
   height: 70%;
   display: flex;
@@ -680,291 +344,378 @@ header center .center nav button:hover {
   cursor: pointer;
   transition: 0.5s all ease;
 }
-.outworks .cneter .up .center button img {
+.meet .obvodka .cneter .up .center button img {
   width: 42px;
   height: 42px;
   -o-object-fit: contain;
      object-fit: contain;
 }
-.outworks .cneter .up .center button p {
+.meet .obvodka .cneter .up .center button p {
   font-family: "Roboto Mono";
   font-size: 14px;
   color: var(--gray_text);
   text-transform: uppercase;
   text-align: left;
 }
-.outworks .cneter .up .center button:hover {
+.meet .obvodka .cneter .up .center button:hover {
   transform: scale(1.05);
 }
-.outworks .cneter .up .down {
+.meet .obvodka .cneter .down {
   width: 100%;
-  height: 85%;
+  height: 75%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 24px;
-}
-.outworks .cneter .up .down .center2 {
-  width: 97%;
-  height: 95%;
-  display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   gap: 2%;
 }
-.outworks .cneter .up .down .center2 article {
-  width: 100%;
-  height: 48%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid var(--center_bg);
-  border-radius: 15px;
-}
-.outworks .cneter .up .down .center2 article .huina {
-  width: 95%;
-  height: 85%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.outworks .cneter .up .down .center2 article .huina .left_part {
-  width: 28%;
+.meet .obvodka .cneter .down article {
+  width: 23%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   background: var(--center_bg);
-  border-radius: 14px;
+  border: 1px solid var(--center_bg);
+  border-radius: 16px;
 }
-.outworks .cneter .up .down .center2 article .huina .left_part .center_parta {
-  width: 90%;
+.meet .obvodka .cneter .down article .center {
+  width: 85%;
   height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
 }
-.outworks .cneter .up .down .center2 article .huina .left_part .center_parta .verh {
+.meet .obvodka .cneter .down article .center .verh {
   width: 100%;
   height: 20%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  gap: 5px;
 }
-.outworks .cneter .up .down .center2 article .huina .left_part .center_parta .verh img {
-  width: 45px;
-  height: 45px;
-}
-.outworks .cneter .up .down .center2 article .huina .left_part .center_parta .verh h3 {
+.meet .obvodka .cneter .down article .center .verh h6 {
   font-family: "Roboto Flex";
-  font-size: 22px;
+  font-size: 18px;
   color: var(--white-orange);
-  text-align: left;
+  text-align: center;
   text-transform: uppercase;
-  width: 45%;
+  font-weight: 500;
 }
-.outworks .cneter .up .down .center2 article .huina .left_part .center_parta .verh button {
-  width: 35%;
-  height: 70%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  background-color: transparent;
-  border: 1px solid var(--center_bg);
-  border-radius: 100px;
-  cursor: pointer;
-  transition: 0.5s all ease;
-}
-.outworks .cneter .up .down .center2 article .huina .left_part .center_parta .verh button img {
-  width: 42px;
-  height: 42px;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-.outworks .cneter .up .down .center2 article .huina .left_part .center_parta .verh button p {
-  font-family: "Roboto Mono";
-  font-size: 12px;
-  color: var(--gray_text);
-  text-transform: uppercase;
-  text-align: left;
-}
-.outworks .cneter .up .down .center2 article .huina .left_part .center_parta .verh button:hover {
-  transform: scale(1.05);
-}
-.outworks .cneter .up .down .center2 article .huina .left_part .center_parta .category {
-  width: 100%;
-  height: 20%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.outworks .cneter .up .down .center2 article .huina .left_part .center_parta .category div {
-  width: -moz-max-content;
-  width: max-content;
-  height: 45%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 10px;
-  background: var(--black_bg);
-  border-radius: 100px;
-  padding: 0 15px;
-}
-.outworks .cneter .up .down .center2 article .huina .left_part .center_parta .category div span {
-  font-family: "Roboto Mono";
-  font-size: 12px;
-  color: var(--gray_text);
-  text-transform: uppercase;
-}
-.outworks .cneter .up .down .center2 article .huina .left_part .center_parta .category div li {
-  font-family: "Roboto Mono";
-  font-size: 12px;
-  color: var(--white-orange);
-  list-style: none;
-  text-transform: uppercase;
-}
-.outworks .cneter .up .down .center2 article .huina .left_part .center_parta > p {
-  width: 100%;
-  height: 40%;
-  font-family: "Roboto Mono";
-  font-size: 14px;
-  color: var(--gray_text);
-  text-align: left;
-}
-.outworks .cneter .up .down .center2 article .huina .center_part {
-  width: 35%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 15px;
-}
-.outworks .cneter .up .down .center2 article .huina .right_part {
-  width: 28%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-.outworks .cneter .up .down .center2 article .huina .right_part .verh {
-  width: 100%;
-  height: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: var(--center_bg);
-  border-radius: 15px;
-}
-.outworks .cneter .up .down .center2 article .huina .right_part .verh .center_parta {
-  width: 80%;
-  height: 60%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.outworks .cneter .up .down .center2 article .huina .right_part .verh .center_parta h6 {
-  font-family: "Roboto Mono";
-  font-size: 14px;
-  color: var(--white-orange);
-  text-align: left;
-  text-transform: uppercase;
-}
-.outworks .cneter .up .down .center2 article .huina .right_part .verh .center_parta .stack {
-  width: 100%;
-  height: 70%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 10px;
-}
-.outworks .cneter .up .down .center2 article .huina .right_part .verh .center_parta .stack div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: var(--black_bg);
-  border-radius: 100px;
-  padding: 8px 15px;
-}
-.outworks .cneter .up .down .center2 article .huina .right_part .verh .center_parta .stack div p {
+.meet .obvodka .cneter .down article .center .verh p {
   font-family: "Roboto Mono";
   font-size: 12px;
   color: var(--gray_text);
   text-align: center;
 }
-.outworks .cneter .up .down .center2 article .huina .right_part .team_members {
+.meet .obvodka .cneter .down article .center img {
   width: 100%;
-  height: 25%;
+  height: 55%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 16px;
+}
+.meet .obvodka .cneter .down article .center .niz {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.meet .obvodka .cneter .down article .center .niz button {
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--center_bg);
-  border-radius: 15px;
+  border-style: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: 0.5s all ease;
 }
-.outworks .cneter .up .down .center2 article .huina .right_part .team_members .center_parta {
-  width: 90%;
+.meet .obvodka .cneter .down article .center .niz button .img {
+  width: 40px;
+  height: 40px;
+}
+.meet .obvodka .cneter .down article .center .niz button:hover {
+  transform: scale(1.05);
+}
+
+.archivment {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--black_bg);
+}
+.archivment .cnter {
+  width: 95%;
   height: 90%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
-.outworks .cneter .up .down .center2 article .huina .right_part .team_members .center_parta h6 {
-  width: -moz-max-content;
-  width: max-content;
-  font-family: "Roboto Mono";
-  font-size: 14px;
-  color: var(--white-orange);
-  text-align: left;
-  text-transform: uppercase;
-  font-weight: 300;
-}
-.outworks .cneter .up .down .center2 article .huina .right_part .team_members .center_parta div {
-  width: 60%;
-  height: 70%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 10px;
-}
-.outworks .cneter .up .down .center2 article .huina .right_part .team_members .center_parta div img {
-  width: 32px;
-  height: 32px;
-  border-radius: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border: 2px solid var(--center_bg);
-}
-.outworks .cneter .up .down .center2 article .huina .right_part button {
+.archivment .cnter .up {
   width: 100%;
   height: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--orange);
-  border-style: none;
-  border-radius: 12px;
-  cursor: pointer;
+}
+.archivment .cnter .up .center {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: var(--center_bg);
+  border-radius: 16px;
+  padding: 3%;
+}
+.archivment .cnter .up .center h1 {
+  font-family: "Roboto Flex";
+  font-size: 36px;
+  color: var(--white-orange);
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.archivment .cnter .down {
+  width: 100%;
+  height: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2%;
+}
+.archivment .cnter .down article {
+  width: 23%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--center_bg);
+  border-radius: 15px;
+  overflow: hidden;
+}
+.archivment .cnter .down article .verh {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.archivment .cnter .down article .verh .center {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.archivment .cnter .down article .verh .center h6 {
   font-family: "Roboto Mono";
   font-size: 14px;
-  color: var(--black_bg);
-  text-transform: uppercase;
-  transition: 0.5s all ease;
+  color: var(--gray_text);
+  text-align: left;
 }
-.outworks .cneter .up .down .center2 article .huina .right_part button:hover {
-  background: var(--orange_text);
+.archivment .cnter .down article .centrist {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1F1F1F;
+  border-top: 1px solid #262626;
+  border-bottom: 1px solid #262626;
+}
+.archivment .cnter .down article .centrist .center {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.archivment .cnter .down article .centrist .center h6 {
+  font-family: "Roboto Flex";
+  font-size: 18px;
+  color: var(--white-orange);
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.archivment .cnter .down article .niz {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.archivment .cnter .down article .niz .center {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.archivment .cnter .down article .niz .center p {
+  font-family: "Roboto Mono";
+  font-size: 13px;
+  color: var(--gray_text);
+  text-align: left;
+  line-height: 1.5;
+}
+
+.awards {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--black_bg);
+}
+.awards .obvodka {
+  width: 95%;
+  height: 92%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--center_bg);
+  border-radius: 24px;
+}
+.awards .obvodka .cneter {
+  width: 95%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.awards .obvodka .cneter .up {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.awards .obvodka .cneter .up .center {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: var(--center_bg);
+  border-radius: 16px;
+  padding: 3%;
+}
+.awards .obvodka .cneter .up .center h1 {
+  font-family: "Roboto Flex";
+  font-size: 36px;
+  color: var(--white-orange);
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.awards .obvodka .cneter .down {
+  width: 100%;
+  height: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2%;
+}
+.awards .obvodka .cneter .down article {
+  width: 23%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--center_bg);
+  border: 1px solid var(--center_bg);
+  border-radius: 16px;
+}
+.awards .obvodka .cneter .down article .center {
+  width: 85%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.awards .obvodka .cneter .down article .center .verh {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.awards .obvodka .cneter .down article .center .verh .super {
+  width: -moz-max-content;
+  width: max-content;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  background: #262626;
+  border-radius: 100px;
+  padding: 0 15px;
+}
+.awards .obvodka .cneter .down article .center .verh .super span {
+  font-family: "Roboto Mono";
+  font-size: 12px;
+  color: var(--gray_text);
+  text-transform: uppercase;
+}
+.awards .obvodka .cneter .down article .center .verh .super li {
+  font-family: "Roboto Mono";
+  font-size: 12px;
+  color: var(--white-orange);
+  text-transform: uppercase;
+  gap: 10px;
+}
+.awards .obvodka .cneter .down article .center .verh .super li::marker {
+  content: "•";
+  color: var(--orange);
+}
+.awards .obvodka .cneter .down article .center .verh img {
+  width: 40px;
+  height: 40px;
+}
+.awards .obvodka .cneter .down article .center .niz {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+}
+.awards .obvodka .cneter .down article .center .niz h3 {
+  font-family: "Roboto Flex";
+  font-size: 30px;
+  color: var(--white-orange);
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 1.3;
+}
+.awards .obvodka .cneter .down article .center .niz p {
+  font-family: "Roboto Mono";
+  font-size: 13px;
+  color: var(--gray_text);
+  text-align: left;
+  line-height: 1.5;
 }
 
 .testimonials {
@@ -1514,7 +1265,7 @@ footer .main_center .digital .cneter .duding button img {
      object-fit: contain;
 }
 footer .main_center .digital .cneter .duding button:hover {
-  background: var();
+  background: var(--center_bg);
 }
 footer .main_center .lenta {
   width: 100%;
